@@ -102,6 +102,7 @@ outputVariables:
       icon: tabler:asterisk
       componentId: a4oldpoxv7bikvpj
       componentName: Markdown View
+      title: Answer
   - id: _Ic1lO-jN8jQnt1uDFA3I
     name: $openingQuestions
     initialValue:
@@ -124,6 +125,7 @@ outputVariables:
       icon: tabler:message-plus
       componentId: g32gbyharvkzm70w
       componentName: Google Search Related Questions View
+      title: Related
   - id: dR5xBc_-k9iorPIN4Ca4o
     name: $openingMessage
   - id: _OYIlNzJ7BnJWwIdTBWyz
