@@ -105,13 +105,13 @@ outputVariables:
       items:
         - id: 8dDbvyGQRiqi7LOzz02uh
           parameters: {}
-          title: What is ArcBlock
+          title: What is Pi
         - id: x-AxeG6iXXy0e2tXH0lcC
           parameters: {}
-          title: What's Pros and cons of ArcBlock compare to other blockchains
+          title: What's Pros and cons of Pi compare to other blockchains
         - id: lgtupA_JY-l1DNld_eZpe
           parameters: {}
-          title: What are typical usecases of ArcBlock?
+          title: What are typical usecases of Pi?
   - id: 29kj6MA-FV7-s_3jK7RmC
     name: relates
     from:
