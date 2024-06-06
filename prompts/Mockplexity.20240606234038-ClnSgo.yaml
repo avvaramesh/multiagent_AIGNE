@@ -73,6 +73,11 @@ outputVariables:
     appearance:
       componentId: 1wwtemqcdio6nqf0
       componentName: Auto Form
+      componentProperties:
+        otf831cy4ebbdwil:
+          value: true
+        wd7bj76kom8y46cj:
+          value: true
   - id: zscdmLqvVzSpCm0pvuOr2
     name: $appearance.output
     appearance:
