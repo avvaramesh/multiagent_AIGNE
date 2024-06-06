@@ -143,6 +143,11 @@ outputVariables:
         - to: twitter
         - to: copy
         - to: saveAs
+  - id: NNFrhCswWSvL0bN-p2VX4
+    name: $reference.links
+    appearance:
+      componentId: l12mb0fyf8okqhnj
+      componentName: Google Search Sources View
 id: 20240606234038-ClnSgo
 createdAt: 2024-06-06T18:10:38.872Z
 updatedAt: 2024-06-06T18:10:38.872Z
