@@ -54,7 +54,7 @@ prompts:
     data:
       id: 20240606235215-W1BIg8
       role: user
-      content: "{{question}}"
+      content: "{{ question }}"
 outputVariables:
   - id: YqnSRyTrKDS4ddujEp-Ga
     name: $appearance.page
