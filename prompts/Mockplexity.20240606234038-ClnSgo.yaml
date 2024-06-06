@@ -68,11 +68,6 @@ outputVariables:
           value: true
         i2b0qp2q09vfbsj3:
           value: true
-        3pig8me8xovm7ur9:
-          value:
-            url: https://www.aigne.io/image-bin/uploads/913a9da8123e778fccad73c81d667696.png
-            width: 200
-            height: 150
   - id: EstM7n8NHct6ZudSFZIPJ
     name: $appearance.input
   - id: zscdmLqvVzSpCm0pvuOr2
