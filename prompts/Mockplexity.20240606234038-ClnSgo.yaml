@@ -143,6 +143,16 @@ outputVariables:
         - to: twitter
         - to: copy
         - to: saveAs
+  - id: Xnbp6Ftat5PZqSiOotVl2
+    name: $profile
+    appearance:
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+      componentProperties:
+        hwfrkh870vsysdyd:
+          value: "10"
+    initialValue:
+      name: MyAgent
 id: 20240606234038-ClnSgo
 createdAt: 2024-06-06T18:10:38.872Z
 updatedAt: 2024-06-06T18:10:38.872Z
