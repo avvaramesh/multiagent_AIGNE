@@ -3,7 +3,7 @@ name: Mockplexity
 description: null
 model: ""
 createdAt: 2024-06-06T18:10:19.190Z
-updatedAt: 2024-06-06T20:18:25.260Z
+updatedAt: 2024-06-06T20:19:05.808Z
 createdBy: z1mTPnKArR2kRj2VTLH91zPDi9F9vJ1sazX
 updatedBy: z1mTPnKArR2kRj2VTLH91zPDi9F9vJ1sazX
 pinnedAt: null
@@ -13,4 +13,4 @@ topP: 1
 presencePenalty: null
 frequencyPenalty: null
 maxTokens: null
-gitAutoSync: null
+gitAutoSync: true
