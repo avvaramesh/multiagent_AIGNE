@@ -72,6 +72,9 @@ outputVariables:
     name: $appearance.input
   - id: zscdmLqvVzSpCm0pvuOr2
     name: $appearance.output
+    appearance:
+      componentId: cjjrsoiyh0ka2dq6
+      componentName: Chat Output (Use Simple Output instead)
   - id: VRWOjzf3jgR1Fa3IIjMMd
     name: question
     from:
