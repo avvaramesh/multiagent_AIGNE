@@ -1,0 +1,138 @@
+type: prompt
+parameters:
+  - id: qYPevifAPsed9YpevLNGP
+    key: question
+  - id: 8yUkbM1QJcWmdWpA6PcqJ
+    key: searchResult
+    from: editor
+    type: source
+    source:
+      variableFrom: tool
+      agent:
+        blockletDid: z2qa7LnL6RA2GXWZheHJcZZZ4WxXfU6tAj7E4
+        projectId: "450914508290916352"
+        id: 20240526105615-K8W4Rk
+        from: assistant
+        parameters:
+          q: "{{question}}"
+prompts:
+  - type: message
+    data:
+      id: 2c16HcwSKrCAX9aTvrlib
+      role: system
+      content: >-
+        use the following context as your learned knowledge, inside
+        <context><context> XML tags.
+
+        <context>
+
+        {{searchResult}}
+
+        </context>
+
+        When answer to user:
+
+        -If you don't know, just say that you don't know.
+
+        -If you don't know when you are nor sure, ask for clarification.
+
+        Avoid mentioning that you obtained the information from the context.
+
+        And answer according to the language of the user's question.
+
+
+        If there are obviously irrelevant items in the lost of context, ignore
+        those.
+
+
+        When possible, categorize the answers as lists for easy reading.
+
+
+        Write a comprehensive report at least 3 paragraph and try the best to
+        cover everything in the context.
+  - type: message
+    data:
+      id: 20240606235215-W1BIg8
+      role: user
+      content: "{{question}}"
+outputVariables:
+  - id: YqnSRyTrKDS4ddujEp-Ga
+    name: $appearance.page
+    appearance:
+      componentId: wvqnnr1wl624vho5
+      componentName: Simple Chat Layout
+      componentProperties:
+        vk95i9xf02kigvlt:
+          value: true
+        vrogtrf0ljvaknwh:
+          value: true
+        i2b0qp2q09vfbsj3:
+          value: true
+  - id: EstM7n8NHct6ZudSFZIPJ
+    name: $appearance.input
+  - id: zscdmLqvVzSpCm0pvuOr2
+    name: $appearance.output
+  - id: VRWOjzf3jgR1Fa3IIjMMd
+    name: question
+    from:
+      type: input
+      id: qYPevifAPsed9YpevLNGP
+    appearance:
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+      componentProperties:
+        hwfrkh870vsysdyd:
+          value: "30"
+  - id: pvY0KZiSwO6hRdRR_7TxP
+    name: sources
+    from:
+      type: input
+      id: 8yUkbM1QJcWmdWpA6PcqJ
+    appearance:
+      icon: tabler:list-details
+      title: Sources
+      componentId: l12mb0fyf8okqhnj
+      componentName: Google Search Sources View
+  - id: x6CNVjsLIGxNH420pfHpU
+    name: $text
+    appearance:
+      icon: tabler:asterisk
+      componentId: a4oldpoxv7bikvpj
+      componentName: Markdown View
+  - id: _Ic1lO-jN8jQnt1uDFA3I
+    name: $openingQuestions
+    initialValue:
+      items:
+        - id: 8dDbvyGQRiqi7LOzz02uh
+          parameters: {}
+          title: What is ArcBlock
+        - id: x-AxeG6iXXy0e2tXH0lcC
+          parameters: {}
+          title: What's Pros and cons of ArcBlock compare to other blockchains
+        - id: lgtupA_JY-l1DNld_eZpe
+          parameters: {}
+          title: What are typical usecases of ArcBlock?
+  - id: 29kj6MA-FV7-s_3jK7RmC
+    name: relates
+    from:
+      type: input
+      id: 8yUkbM1QJcWmdWpA6PcqJ
+    appearance:
+      icon: tabler:message-plus
+      componentId: g32gbyharvkzm70w
+      componentName: Google Search Related Questions View
+  - id: dR5xBc_-k9iorPIN4Ca4o
+    name: $openingMessage
+  - id: _OYIlNzJ7BnJWwIdTBWyz
+    name: $share
+    initialValue:
+      items:
+        - to: twitter
+        - to: copy
+        - to: saveAs
+id: 20240606234038-ClnSgo
+createdAt: 2024-06-06T18:10:38.872Z
+updatedAt: 2024-06-06T18:10:38.872Z
+createdBy: z1mTPnKArR2kRj2VTLH91zPDi9F9vJ1sazX
+updatedBy: z1mTPnKArR2kRj2VTLH91zPDi9F9vJ1sazX
+name: Mockplexity
