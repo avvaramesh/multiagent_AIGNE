@@ -70,6 +70,9 @@ outputVariables:
           value: true
   - id: EstM7n8NHct6ZudSFZIPJ
     name: $appearance.input
+    appearance:
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
   - id: zscdmLqvVzSpCm0pvuOr2
     name: $appearance.output
     appearance:
