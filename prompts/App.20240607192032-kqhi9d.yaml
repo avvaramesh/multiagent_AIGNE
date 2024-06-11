@@ -1,0 +1,29 @@
+type: agent
+parameters: []
+prompts:
+  dkYUxlQF0JJie3Drbi_uA:
+    index: 0
+    data:
+      type: message
+      data:
+        id: dkYUxlQF0JJie3Drbi_uA
+        role: assistant
+        content: "{{ question }}"
+outputVariables:
+  - id: PyLIkS87DpUW1NZ3zBVX3
+    name: $children
+    initialValue:
+      agents:
+        - id: 20240606234038-ClnSgo
+          name: MultiAgent_Aigne
+  - id: 7AXl3kTGwkve6o_6xkWr0
+    name: $appearance.output
+    appearance:
+      componentId: q0ckknkxph4hfwas
+      componentName: Simple Output
+id: 20240607192032-kqhi9d
+createdAt: 2024-06-07T13:50:32.719Z
+updatedAt: 2024-06-07T13:50:32.719Z
+createdBy: z1mTPnKArR2kRj2VTLH91zPDi9F9vJ1sazX
+updatedBy: z1mTPnKArR2kRj2VTLH91zPDi9F9vJ1sazX
+name: App

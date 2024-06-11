@@ -15,6 +15,14 @@ parameters:
         from: assistant
         parameters:
           q: "{{question}}"
+  - id: rHnfAFe96rt5py5zWNHTK
+    key: chatHistory
+    type: source
+    source:
+      variableFrom: history
+      chatHistory:
+        limit: 20
+        keyword: "{{ question }}"
 prompts:
   - type: message
     data:
@@ -50,6 +58,19 @@ prompts:
 
         Write a comprehensive report at least 3 paragraph and try the best to
         cover everything in the context.
+  - type: message
+    data:
+      id: 20240611152002-uCH6mx
+      role: system
+      content: |-
+        ## History
+        Here is the chat history of user, inside <history></history> XML tags.
+        <history>
+        {{chatHistory}}
+        </history>
+
+        ## Rules
+        - You should respond in the user's question language.
   - type: message
     data:
       id: 20240606235215-W1BIg8
